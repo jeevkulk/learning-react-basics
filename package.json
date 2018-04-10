@@ -4,9 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "npm run build",
-        "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
-        "build:prod": "webpack -d && cp src/index.html dist/index.html"
+        "build": "webpack",
+        "watch": "npm run build -- --watch",
+        "start": "npm run build & webpack-dev-server"
     },
     "repository": {
         "type": "git",

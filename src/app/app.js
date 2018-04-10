@@ -24,8 +24,8 @@ class App extends React.Component {
 
     render() {
         var user = {
-            name: "JK",
-            current_project: "Technical Compliance",
+            name: "Jeevan",
+            current_project: "Cyber Security - CCM",
             past_projects: ["Corebanking", "Training Application", "Financial Compliance"]
         }
         return (
@@ -37,7 +37,7 @@ class App extends React.Component {
                 </div>
                 <div className="row">
                     <div className="col-xs-10 col-xs-offset-1">
-                        <Home name={"J"} user={ user } changeLinkText={this.onChangeLinkText.bind(this)} />
+                        <Home name={"JK"} user={ user } changeLinkText={this.onChangeLinkText.bind(this)} />
                     </div>
                 </div>
             </div>
